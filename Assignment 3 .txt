@@ -1,0 +1,11 @@
+1. Program to print the sum of the given list .
+2. Program to print the table of the given number .
+3. Program to print even number using step size in range() .
+
+
+------LISTS------
+
+1. Program to print the sum of the given list.  
+2. Wirte a Python Program to Find weather an item is present in the list.
+3. Write a Program that prints the numbers from 1 to 20 . But for multiples of three print "Fizz" instead of the number and for the multiples of five prints "Buzz" .For numbers which are multiples of both three and five print " FizzBuzz" . This is famously known as the FizzBuzz test.
+4. Write a Program that prints the  numbers from 1 to 20 .  remove even number from the list. 
