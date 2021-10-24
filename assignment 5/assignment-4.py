@@ -7,4 +7,4 @@ while (i <= num_of_num):
     else:
         sum = sum + num
     i = i + 1
-print("Sum of all positive numbers are: ", sum) 
+print("Sum of all positive numbers are: ", sum)
