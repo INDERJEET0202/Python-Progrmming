@@ -13,9 +13,9 @@
 
 
 
-for x in range (6):
-    if (x == 3):
-        break
+for x in range (5,60000,10):
+    # if (x == 100):
+    #     break
     print(x)
 else:
     print("Loop is completed")

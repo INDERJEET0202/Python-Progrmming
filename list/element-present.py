@@ -1,4 +1,4 @@
-names = ["dog", "Cat", "moneky", "banana", "apple", "orange"]
+names = ["dog", "Cat", "monkey", "banana", "apple", "orange"]
 find = str(input("Enter name: "))
 if find in names:
     print("element found")

@@ -15,7 +15,7 @@ print(names)
 names[1:2] = "god", "road"
 print(names)
 
-names.append("noob")
+names.append("hi")
 names.insert(1,"king")
 
 names.extend(names2)
