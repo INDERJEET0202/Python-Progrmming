@@ -1,0 +1,30 @@
+List----------------
+Program 1: Create two list:
+first_list = [‘abcd’ , 147 , 2.43, ‘Tom’ , 74.8]
+a)	Print complete list.
+b)	Print the first element of list
+c)	Print elements starting from 2nd till 3rd
+d)	Print elements starting from 3rd element
+e)	Print the total length of the list small_list = [222 , ‘Tom’]
+a)	Print complete list.
+b)	Print list 2 times.
+c)	Print concatenated two lists.
+d)	Program to Subtract a List from Another List
+
+Tuples----------------
+Program 2: Create two Tuples:
+first_tuple = (‘abcd’ , 147 , 2.43, ‘Tom’ , 74.8)
+a)	Print complete tuple.
+b)	Print the first element of tuple
+c)	Print elements starting from 2nd till 3rd
+d)	Print elements starting from 3rd element
+e)	Print the total length of the tuple.
+    small_tuple = (222 , ‘Tom’)
+f)	Print complete tuple .
+g)	Print tuple 2 times.
+h)	Print concatenated two tuple.
+i)	Program to Subtract a Tuple from Another Tuple
+
+Dictionary----------------
+a) Write a python script to concatenate following dictionaries to create a new one.
+b) Write a Python script to check if a given key already exists in dictionary.

@@ -8,7 +8,7 @@
 # for x in range (1,7):
 #     print (x)
 
-list = ['banana' , 'apple', 'oil', 'paint' ]
+# list = ['banana' , 'apple', 'oil', 'paint' ]
 # print(list[::-1])
 
 # str= "hello world"[::-1]
@@ -30,7 +30,7 @@ list = ['banana' , 'apple', 'oil', 'paint' ]
 #     end -= 1
 # print(list1) 
 
-print(list[::-1])
+# print(list[::-1])
 
 
 # 1.ATM 
@@ -65,3 +65,5 @@ print(list[::-1])
 # 120.00
 
 
+a = print("hello")
+print(a)

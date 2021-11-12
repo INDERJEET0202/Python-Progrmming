@@ -43,8 +43,28 @@ tuple3 = tuple1 + tuple2 #Adding two tuples
 print(tuple3) 
 
 #Packing tuples
-x = ("apple", "banana", "cherry")  
-(green, yellow, red) = x #Unpacking the tuple
+x = ("apple", "banana", "cherry", "python")  
+(green, yellow, *red) = x #Unpacking the tuple
+(green, *yellow, red) = x
 print(green)
 print(yellow)
 print(red)
+
+#Looping through a tuple
+fruit = ("apple", "banana", "cherry")
+for x in fruit:
+    print(x)
+
+#range in tuple
+fruit = ("apple", "banana", "cherry")
+for x in range(len(fruit)):
+    print(x)
+
+#Using while loop
+fruit = ("apple", "banana", "cherry")
+i = 0
+while i < len(fruit):
+    print(fruit[i])
+    i += 1
+
+#Tuple methods
