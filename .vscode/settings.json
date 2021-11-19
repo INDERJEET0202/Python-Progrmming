@@ -2,5 +2,6 @@
     "cmake.configureOnOpen": false,
     "cSpell.words": [
         "Pooja"
-    ]
+    ],
+    "python.formatting.provider": "yapf"
 }
