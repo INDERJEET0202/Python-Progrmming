@@ -14,7 +14,7 @@ def multiplication(a, b):
 def division(a, b):
     return a / b
 
-print("Select operation.\n 1 - Summation\n 2 - Substruction\n 3 - Multiplication\n 4 - Division")
+print("Select operation.\n 1 - Summation\n 2 - Subtraction\n 3 - Multiplication\n 4 - Division")
 choice = int(input('Enter your choice: '))
 if(choice == 1):
     a = int(input("Enter first number: "))
