@@ -5,7 +5,8 @@ a)	Print complete list.
 b)	Print the first element of list
 c)	Print elements starting from 2nd till 3rd
 d)	Print elements starting from 3rd element
-e)	Print the total length of the list small_list = [222 , ‘Tom’]
+e)	Print the total length of the list 
+    small_list = [222 , ‘Tom’]
 a)	Print complete list.
 b)	Print list 2 times.
 c)	Print concatenated two lists.

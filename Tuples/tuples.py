@@ -68,3 +68,6 @@ while i < len(fruit):
     i += 1
 
 #Tuple methods
+thistuple = ("apple", "banana", "cherry")
+print(thistuple.count("apple")) #counts the number of times the specified value occurs in the tuple
+print(thistuple.index("banana")) #Returns the index of the first element with the specified value
