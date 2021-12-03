@@ -1,0 +1,14 @@
+Consider two lists "list1" and "list2".create a 3rd list "list3" such that it contains items present in list1 but not in list2. update the list and revert the list into tuple
+
+
+Program 1: Write a Python program to find factorial of number using function.
+
+Program 2: Write a Python program to Display Fibonacci Sequence using function.
+
+Program 3: Write a Python program to find factorial of number using Recursion.
+
+Program 4: Write a Python function that accepts a string and calculate the number of upper case letters and lower case letters.
+Sample String : ‘ The quick Brow Fox ’
+Expected Output:
+No of Upper Case characters: 3
+No of Lower Case characters: 12
