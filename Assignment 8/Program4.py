@@ -29,5 +29,6 @@ def string(s):
     print ("Original String : ", s)
     print ("No. of Upper case characters : ", upper)
     print ("No. of Lower case Characters : ", lower)
-Sample_String = "The quick Brown Fox"
+Sample_String = str(input("Enter a string: "))
+# Sample_String = "The quick Brown Fox"
 string(Sample_String)
