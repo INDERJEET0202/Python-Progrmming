@@ -1,0 +1,9 @@
+Program 1: Write a Python Function to get a new string from a given string where “Is” has been added to the front. If the given string already begins with “Is” then return the string unchanged.
+
+Program 2: Write a Python Function to find the sum of n natural numbers using recursion.
+
+Program 3: Write a Python Function to convert decimal to binary using recursion.
+
+Program 4: Write a Python Function that takes two lists and returns True if they have at least one common member.
+
+Program 5: Write a Python Function that takes a list of words and returns the longest one.
