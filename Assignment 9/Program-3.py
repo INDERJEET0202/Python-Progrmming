@@ -1,9 +1,10 @@
+# Decimal to binary conversion using iteration
 decimal = int(input("Enter an integer: "))
  
 print("The decimal value of", decimal, "is:")
 print(bin(decimal), "in binary.")
 
-
+# Decimal to binary conversion using recursion
 def decToBin(num):
     if(num == 0):
         return 0
