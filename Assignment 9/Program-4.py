@@ -1,3 +1,6 @@
+# list1 = [1,2,3,4,5,6]
+# list2 = [12,11,10,9,8,7]
+
 def common(list1, list2):
     result = False
     for x in list1:
@@ -6,22 +9,19 @@ def common(list1, list2):
                 result = True
     return result
 
-# list1 = [1,2,3,4,5,6]
-# list2 = [12,11,10,9,8,7]
-
 l1 = []
-ll1 = int(input("Enter number of elements you want in list1 "))
+elements = int(input("Enter number of elements you want in list 1 "))
 i = 0
-while(i < ll1):
+while(i < elements):
     x = (input("Enter number to append: "))
     l1.append(x)
     i = i+1
 
 
 l2 = []
-ll2 = int(input("Enter number of elements you want in list 2 "))
+elements = int(input("Enter number of elements you want in list 2 "))
 j = 0
-while(j < ll2):
+while(j < elements):
     y = (input("Enter number to append: "))
     l2.append(y)
     j = j+1
