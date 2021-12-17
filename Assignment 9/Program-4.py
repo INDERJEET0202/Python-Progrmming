@@ -9,30 +9,30 @@ def common(list1, list2):
                 result = True
     return result
 
-l1 = []
+list1 = []
 elements = int(input("Enter number of elements you want in list 1 "))
 i = 0
 while(i < elements):
     x = (input("Enter number to append: "))
-    l1.append(x)
+    list1.append(x)
     i = i+1
 
 
-l2 = []
+list2 = []
 elements = int(input("Enter number of elements you want in list 2 "))
 j = 0
 while(j < elements):
     y = (input("Enter number to append: "))
-    l2.append(y)
+    list2.append(y)
     j = j+1
 
-print(l1)
-print(l2)
+print(list1)
+print(list2)
 
-if(common(l1, l2)):
-    print("Common found")
+if(common(list1, list2)):
+    print("True")
 else:
-    print("N/A")
+    print("False")
 
 
 # Method 2
