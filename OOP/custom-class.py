@@ -64,11 +64,11 @@ indrajit.add_course('rails')
 # indrajit.add_course('rails') # This will not add rails course as it is already in the list
 
 # john = Student('John', 'Doe', course_2)
-# john.remove_course('c')
+# john.remove_course('c') # This will not remove c course as it is not in the list
 # john.remove_course('c')
 
-# print(indrajit.first_name, indrajit.last_name, indrajit.course)
-# print(indrajit.add_to_file(file_name))
+print(indrajit.first_name, indrajit.last_name, indrajit.course)
+print(indrajit.add_to_file(file_name))
 # print(dir(indrajit))
 # print(repr(indrajit))
 # print(john.first_name, john.last_name, john.course)
