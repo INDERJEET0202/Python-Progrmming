@@ -1,19 +1,38 @@
 stack = []
 top = -1
+max_size = int(input("Enter the size of the stack: "))
 
 def push(element):
     global top
-    top += 1
-    stack.append(element)
+    if top == max_size - 1:
+        print("Stack is full")
+    else:
+        stack.append(element)
+        top += 1
     return stack
 
 def pop():
     global top
-    if top == -1:
+    if len(stack) == 0:
         print("Stack is empty")
     else:
         print("Popped element: ", stack.pop())
         top -= 1
+    return stack
+
+def display():
+    if len(stack) == 0:
+        print("Stack is empty")
+    else:
+        for i in reversed(stack):
+            print(i, end=" ")
+    print()
+
+def stack_top():
+    if len(stack) == 0:
+        print("Stack is empty")
+    else:
+        print("Top element: ", stack[top])
     return stack
 
 x = 0
@@ -22,15 +41,15 @@ while(x == 0):
     choice = int(input("Enter your choice: "))
     if(choice == 1):
         stack = push(input("Enter the element: "))
-        print(top)
+        # print(top)
     elif(choice == 2):
         stack = pop()
     elif(choice == 3):
-        print("Top element: ", stack[-1])
+        stack = stack_top()
     elif(choice == 4):
         print("Peek element: ", stack[-1])
     elif(choice == 5):
-        print(stack)
+        display()
     elif(choice == 6):
         print("Exiting...")
         x = 1

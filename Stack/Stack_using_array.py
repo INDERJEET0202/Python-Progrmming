@@ -1,30 +1,32 @@
 stack = []
 top = -1
+max_size = int(input("Enter the size of the stack: "))
 
-def push():
-    # global top
-    element = int(input("Enter the number of elements: "))
-    for i in range(element):
-        # top += 1
-        stack.append((input("Enter the element: ")))
+def push(element):
+    global top
+    if top == max_size - 1:
+        print("Stack is full")
+    else:
+        stack.append(element)
+        top += 1
     return stack
 
 
 def pop():
-    # global top
+    global top
     if len(stack) == 0:
         print("Stack is empty")
     else:
         print("Popped element: ", stack.pop())
-        # top -= 1
+        top -= 1
     return stack
 
 
-def top():
+def stack_top():
     if len(stack) == 0:
         print("Stack is empty")
     else:
-        print("Top element: ", stack[-1])
+        print("Top element: ", stack[top])
     return stack
 
 
@@ -49,17 +51,17 @@ def display():
 
 
 x = 0
-while(x == 0):
-    print("1. Push" + "\n" + "2. Pop" + "\n" + "3. Top" + "\n" + "4. Search" + "\n" + "5. Display" + "\n" + "6. Exit")
+while(True):
+    print("1. Push \n 2. Pop \n 3. Top \n 4. Search \n 5. Display \n 6. Exit")
     choice = int(input("Enter your choice: "))
     if(choice == 1):
-        stack = push()
+        stack = push(input("Enter the element: "))
     elif(choice == 2):
         stack = pop()
     elif(choice == 3):
-        stack = top()
+        stack = stack_top()
     elif(choice == 4):
-        data = (input("Enter the element to peek: "))
+        data = (input("Enter the element to search: "))
         if search(data):
             print("Element found")
         else:
@@ -68,6 +70,6 @@ while(x == 0):
         stack = display()
     elif(choice == 6):
         print("Exiting...")
-        x = 1
+        break
     else:
         print("Invalid choice")
