@@ -1,0 +1,12 @@
+Q1. Write a Python Program to Make a Simple Calculator.
+
+Q2. Write a Python Function to convert decimal to binary using recursion.
+
+Q3. Write a Python Function that takes two lists and returns True if they have at least one common
+Member.
+
+Q4. Write a Python script to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x).
+Sample Dictionary ( n = 5) :
+Expected Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+Q5. Write a Python program to find the length and index of an item of a tuple.
