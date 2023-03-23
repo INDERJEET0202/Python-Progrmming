@@ -1,8 +1,8 @@
-# a = 10
+a = 10
 
 # print ("Value of a is ",a)
 
-# print ("%d ia the value of a." %a )
+print ("%d is the value of a." %a )
 
 
 # for x in range (1,7):
@@ -69,4 +69,14 @@
 # print(a)
 
 
+# user input of list
+# l = []
+# n = int(input("Enter the number of elements in the list: "))
+# for i in range(0, n):
+#     ele = int(input("Enter the element: "))
+#     l.append(ele)
+# print("The list is: ", l)
 
+
+
+# print('Hellow World')

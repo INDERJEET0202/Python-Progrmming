@@ -89,3 +89,6 @@ final = {
 # Dictionary methods
 
 # clear() , copy() , fromkeys() , get() , items() , keys() , pop() , popitem() , setdefault() , update() , values()
+
+for key, value in d3.items():
+    print(key, value)
